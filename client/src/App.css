@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+
+/* General body styles*/
+body{
+  background-color: thistle;
+  color: black;
+  font-family: 'Edu SA Beginner', cursive;
+}
+
+/*Home screen title styles */
+.homescreen .homescreentitle{
+  display: flex;
+  font-size: 70px;
+  justify-content: center;
+  /*border: 1px solid black;*/
+  text-decoration: 2px solid white underline;
+}
+
+/*Home screen form styles */
+.postformContainer{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  left: 30vw;
+  width: 40vw;
+  height: 30vh;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border: .5px solid black;
+  border-radius: 19px;
+}
+
+.postformContainer .postform{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.postformContainer .postform .todoinput{
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+}
+
+
+.postformContainer .postform .todoinput .postformlabel{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.postformContainer .postform .todoinput .postforminput{
+  font-family: 'Edu SA Beginner', cursive;
+}
+
+.postformbutton{
+  width: 30%;
+  font-size: 18px;
+  font-family: 'Edu SA Beginner', cursive;
+}
+
+/*Todos list styles */
+
+.list{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  left: 20vw;
+  top: 5vh;
+  width: 60vw;
+  border-radius: 19px;
+  border: .5px solid black;
+}
+
+.list .listelement{
+  font-size: 20px;
+  padding-top: 2%;
+  
+}
+
+.listbutton{
+  font-family: 'Edu SA Beginner', cursive;
+}
+
+/*Edit screen styles */
+.editcontainer{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  left: 30vw;
+  width: 40vw;
+  height: 50vh;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border: .5px solid black;
+  border-radius: 19px;
+}
+
+.editform{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.editinputcontainer{
+  display: flex;
+  align-items: center;
+  width: 80%;
+  flex-direction: column;
+}
+
+.editinput{
+  width: 80%;
+  font-family: 'Edu SA Beginner', cursive;
+}
+
+.editbutton{
+  width: 50%;
+  font-family: 'Edu SA Beginner', cursive;
+  font-size: 16px;
+}
+
+/*Navbar styles */
+.navbar{
+  position: fixed;
+  left: 10px;
+}
+
+.navElement{
+  border: 1px solid black;
+}
